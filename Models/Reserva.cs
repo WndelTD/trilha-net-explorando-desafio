@@ -22,6 +22,7 @@ namespace DesafioProjetoHospedagem.Models
             else
             {
                 Console.WriteLine("Quantidade de hospedes excedeu o limite da suite.");
+                System.Environment.Exit(0);
             }
         }
 
